@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
-
+export const metadata = {
+    title: "MAC BOOK",
+};
 export default function Mac(){
     const products = [
         { name: 'Mac book Pro 2023', image: '/images/1.avif', slug: 'iphone-15-pro', buyiphone15pro: 'buy',lernmoreiphone15pro:'leanmore' },

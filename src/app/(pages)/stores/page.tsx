@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import MainComponent from './MainComponent';
 
+export const metadata = {
+    title: "STORES",
+};
 export default function Stores() {
     const products = [
         {name: 'Mac', imagePath: '/images/store-card-13-mac-nav-202310.png'},
