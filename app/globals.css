@@ -2,6 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+.thoeun{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.thoeun h1{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.thoeun p{
+  font-size: 20px;
+}
+.learn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top:  10px;
+  color: cornflowerblue;
+}
+.buy{
+  margin-left: 20px;
+}
+
+.more:hover{
+  color: antiquewhite;
+}
+
+.buy:hover {
+  color: antiquewhite;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
